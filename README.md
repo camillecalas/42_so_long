@@ -26,6 +26,6 @@ A valid map is structured as followed:
 All the visualization is done with the help of the MiniLibX library.
 
 ### Run the game
-compile with :```make all```
+compile with : ```make all```
 
-run the game with :```./so_long maps/...```
+run the game with : ```./so_long maps/...```
