@@ -1,10 +1,10 @@
 # 42 so_long
 This projects goal is to create your own 2D game where you have a map that can have different dimensions and contents.
 
-## Requirements to run the game
+### Requirements to run the game
 Only tested on macOS Catalina (Version 10.15.7). To run it on Linux, you will find a tutorial and the minilibxto add to the project.
 
-## Map
+### Map
 A valid map is structured as followed:
 
 - 1 player (P)
@@ -16,7 +16,7 @@ A valid map is structured as followed:
 - map has to be .ber
 - no other characters than: P, E C 1 0
 
-## During the game
+### During the game
 - The player can only be moved by WASD.
 - The player can not move into walls.
 - The player can only exit if all collectibles are collected.
@@ -25,11 +25,7 @@ A valid map is structured as followed:
 
 All the visualization is done with the help of the MiniLibX library.
 
-## Run the game
-compile with :
+### Run the game
+compile with :```make all```
 
-make all
-
-run the game with :
-
-./so_long maps/...
+run the game with :```./so_long maps/...```
